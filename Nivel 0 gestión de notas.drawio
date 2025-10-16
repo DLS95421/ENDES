@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Página-1" id="HNK56Ntmy2NkE9YRfqlZ">
+    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0llGH6cVOCOkjKGVlB9X-1" value="Alumno" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0llGH6cVOCOkjKGVlB9X-2" value="Profesor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0llGH6cVOCOkjKGVlB9X-3" value="Almacén de notas" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0llGH6cVOCOkjKGVlB9X-4" value="BD Usuarios" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0llGH6cVOCOkjKGVlB9X-5" value="0. Sistema de gestión de notas" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="299" y="180" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="0llGH6cVOCOkjKGVlB9X-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.417;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0llGH6cVOCOkjKGVlB9X-3" target="0llGH6cVOCOkjKGVlB9X-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="300" as="sourcePoint" />
+            <mxPoint x="540" y="250" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0llGH6cVOCOkjKGVlB9X-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.653;exitY=0.963;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.049;entryY=0.26;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0llGH6cVOCOkjKGVlB9X-1" target="0llGH6cVOCOkjKGVlB9X-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="105.64" as="sourcePoint" />
+            <mxPoint x="318.1206398885688" y="190.0019196657064" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0llGH6cVOCOkjKGVlB9X-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.927;entryY=0.238;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0llGH6cVOCOkjKGVlB9X-2" target="0llGH6cVOCOkjKGVlB9X-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="230" as="sourcePoint" />
+            <mxPoint x="550" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0llGH6cVOCOkjKGVlB9X-11" value="Credenciales, solicitud nota" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0llGH6cVOCOkjKGVlB9X-12" value="Credenciales, nota" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0llGH6cVOCOkjKGVlB9X-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="0llGH6cVOCOkjKGVlB9X-5" target="0llGH6cVOCOkjKGVlB9X-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="380" as="sourcePoint" />
+            <mxPoint x="320" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
